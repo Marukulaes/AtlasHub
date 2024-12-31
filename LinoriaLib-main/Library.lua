@@ -1,6 +1,6 @@
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
-local PlayerGui = game:GetService("Players").LocalPlayer.PlayerGui
+local RobloxGui = game:GetService("CoreGui").RobloxGui
 local Teams = game:GetService('Teams');
 local Players = game:GetService('Players');
 local RunService = game:GetService('RunService')
@@ -15,7 +15,7 @@ local ScreenGui = Instance.new('ScreenGui');
 ProtectGui(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
-ScreenGui.Parent = PlayerGui;
+ScreenGui.Parent = RobloxGui;
 
 local Toggles = {};
 local Options = {};
