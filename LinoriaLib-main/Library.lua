@@ -14,6 +14,7 @@ local ScreenGui = Instance.new('ScreenGui');
 ProtectGui(ScreenGui);
 
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Global;
+ScreenGui.Name = "Attack Hub";
 ScreenGui.Parent = CoreGui;
 
 local Toggles = {};
