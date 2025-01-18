@@ -2978,7 +2978,7 @@ function Library:CreateWindow(...)
 	if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled then
 		if typeof(Config.Size) ~= 'UDim2' then Config.Size = UDim2.fromOffset(550, 300) end
 	else
-		if typeof(Config.Size) ~= 'UDim2' then Config.Size = UDim2.fromOffset(550, 600) end
+		if typeof(Config.Size) ~= 'UDim2' then Config.Size = UDim2.fromOffset(600, 550) end
 	end
 
 	if Config.Center then
